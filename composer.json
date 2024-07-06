@@ -1,7 +1,6 @@
 {
     "name": "jonayed-hossan/php-test-pack",
     "description": "This is playground for understanding php composer packaging system",
-    "type": "dummyCoding",
     "authors": [
         {
             "name": "Jonayed Hossan Gazi"
