@@ -82,13 +82,15 @@ class ForumifyTheme extends AbstractForumifyTheme
                     key: 'c-text-primary',
                     label: 'Primary Text Color',
                     type: ThemeVarType::Color,
-                    defaultValue: '#1b1c1f'
+                    defaultValue: '#1b1c1f',
+                    defaultDarkValue: '#ffffff',
                 ),
                 new ThemeVar(
                     key: 'c-text-secondary',
                     label: 'Secondary Text Color',
                     type: ThemeVarType::Color,
-                    defaultValue: '#666879'
+                    defaultValue: '#666879',
+                    defaultDarkValue: '#ffffff',
                 ),
                 new ThemeVar(
                     key: 'c-success',
