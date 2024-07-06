@@ -9,5 +9,7 @@ print("heyy you");
     echo __CLASS__, time(), "Ok";
   }
 }
+  $db = new MysqliDb ('host', 'username', 'password', 'databaseName');
+  var_dump($db);
   
 }
