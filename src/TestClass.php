@@ -1,3 +1,4 @@
+<?
 namespace jonayed-hossan\test;
 
 class TestClass {
