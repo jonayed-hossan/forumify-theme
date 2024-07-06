@@ -1,19 +1,15 @@
 {
-    "name": "forumify/forumify-theme",
-    "description": "Base theme for forumify",
-    "type": "forumify-theme",
-    "license": "OSL-3.0",
+    "name": "jonayed-hossan/php-test-pack",
+    "description": "This is playground for understanding php composer packaging system",
+    "type": "dummyCoding",
     "authors": [
         {
-            "name": "forumify"
+            "name": "Jonayed Hossan Gazi"
         }
     ],
-    "autoload": {
-        "psr-4": {
-            "Forumify\\": "src/"
-        }
+"require": {
+        "php": ">=7.0.0",
+        "thingengineer/mysqli-database-class:dev-master"
     },
-    "extra": {
-        "forumify-plugin-class": "Forumify\\ForumifyTheme"
-    }
+
 }
