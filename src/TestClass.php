@@ -1,6 +1,6 @@
 <?
 namespace phpTestPack{
-
+use MysqliDb;
 class TestClass {
 public function __construct(){
 print("heyy you");
